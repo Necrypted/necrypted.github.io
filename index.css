@@ -1,5 +1,6 @@
-.page {
- position: relative;
+html, body {
+	margin: 0;
+	height: 100%;
 }
 .page::before {
 	content: "";
@@ -12,6 +13,9 @@
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+.page {
+ position: relative;
 }
 .page-inside {
 	position: relative;
