@@ -2,13 +2,30 @@ html, body {
 	margin: 0;
 	height: 100%;
 }
+
+@keyframes bgcolor {
+	25% {
+		filter:opacity(0.5) drop-shadow(0 0 0 rgb(65, 196, 222));
+	}
+	50% {
+		filter:opacity(0.5) drop-shadow(0 0 0 rgb(140, 199, 63));
+	}
+	75% {
+		filter:opacity(0.5) drop-shadow(0 0 0 rgb(243, 211, 51));
+	}
+	100% {
+		filter:opacity(0.5) drop-shadow(0 0 0 rgb(247, 142, 86));
+	}
+}
+
 .page::before {
 	content: "";
 	position: absolute;
 	top: 0; left: 0;
 	width: 100%; height: 100%;
 	background: url("https://upload.wikimedia.org/wikipedia/en/9/95/Test_image.jpg") no-repeat center center fixed; 
-	filter: opacity(0.5) drop-shadow(0 0 0 blue);
+	filter: opacity(0.5) drop-shadow(0 0 0 #41C4DE);
+	animation: bgcolor 14s ease 0s infinite alternate none running;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
