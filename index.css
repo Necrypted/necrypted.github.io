@@ -5,16 +5,16 @@ html, body {
 
 @keyframes bgcolor {
 	25% {
-		filter:opacity(0.5) drop-shadow(0 0 0 rgb(65, 196, 222));
+		filter:opacity(0.1) drop-shadow(0 0 0 rgb(65, 196, 222));
 	}
 	50% {
-		filter:opacity(0.5) drop-shadow(0 0 0 rgb(140, 199, 63));
+		filter:opacity(0.1) drop-shadow(0 0 0 rgb(140, 199, 63));
 	}
 	75% {
-		filter:opacity(0.5) drop-shadow(0 0 0 rgb(243, 211, 51));
+		filter:opacity(0.1) drop-shadow(0 0 0 rgb(243, 211, 51));
 	}
 	100% {
-		filter:opacity(0.5) drop-shadow(0 0 0 rgb(247, 142, 86));
+		filter:opacity(0.1) drop-shadow(0 0 0 rgb(247, 142, 86));
 	}
 }
 
