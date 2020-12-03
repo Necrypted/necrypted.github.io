@@ -3,20 +3,123 @@ html, body {
 	height: 100%;
 }
 
-@keyframes bgcolor {
-	25% {
-		filter: opacity(75%) drop-shadow(0 0 0 rgb(65, 196, 222));
+@-webkit-keyframes bgcolor {
+	11.11% {
+		filter: opacity(75%) drop-shadow(0 0 0 #ff2400);
 	}
-	50% {
-		filter: opacity(75%) drop-shadow(0 0 0 rgb(140, 199, 63));
+	22.22% {
+		filter: opacity(75%) drop-shadow(0 0 0 #e81d1d);
 	}
-	75% {
-		filter: opacity(75%) drop-shadow(0 0 0 rgb(243, 211, 51));
+	33.33% {
+		filter: opacity(75%) drop-shadow(0 0 0 #e8b71d);
 	}
-	100% {
-		filter: opacity(75%) drop-shadow(0 0 0 rgb(247, 142, 86));
+	44.44% {
+		filter: opacity(75%) drop-shadow(0 0 0 #e3e81d);
+	}
+	55.55% {
+		filter: opacity(75%) drop-shadow(0 0 0 #1de840);
+	}
+	66.66% {
+		filter: opacity(75%) drop-shadow(0 0 0 #1ddde8);
+	}
+	77.77% {
+		filter: opacity(75%) drop-shadow(0 0 0 #2b1de8);
+	}
+	88.88% {
+		filter: opacity(75%) drop-shadow(0 0 0 #dd00f3);
+	}
+	99.99% {
+		filter: opacity(75%) drop-shadow(0 0 0 #dd00f3);
 	}
 }
+@-moz-keyframes bgcolor {
+	11.11% {
+		filter: opacity(75%) drop-shadow(0 0 0 #ff2400);
+	}
+	22.22% {
+		filter: opacity(75%) drop-shadow(0 0 0 #e81d1d);
+	}
+	33.33% {
+		filter: opacity(75%) drop-shadow(0 0 0 #e8b71d);
+	}
+	44.44% {
+		filter: opacity(75%) drop-shadow(0 0 0 #e3e81d);
+	}
+	55.55% {
+		filter: opacity(75%) drop-shadow(0 0 0 #1de840);
+	}
+	66.66% {
+		filter: opacity(75%) drop-shadow(0 0 0 #1ddde8);
+	}
+	77.77% {
+		filter: opacity(75%) drop-shadow(0 0 0 #2b1de8);
+	}
+	88.88% {
+		filter: opacity(75%) drop-shadow(0 0 0 #dd00f3);
+	}
+	99.99% {
+		filter: opacity(75%) drop-shadow(0 0 0 #dd00f3);
+	}
+}
+@-o-keyframes bgcolor {
+	11.11% {
+		filter: opacity(75%) drop-shadow(0 0 0 #ff2400);
+	}
+	22.22% {
+		filter: opacity(75%) drop-shadow(0 0 0 #e81d1d);
+	}
+	33.33% {
+		filter: opacity(75%) drop-shadow(0 0 0 #e8b71d);
+	}
+	44.44% {
+		filter: opacity(75%) drop-shadow(0 0 0 #e3e81d);
+	}
+	55.55% {
+		filter: opacity(75%) drop-shadow(0 0 0 #1de840);
+	}
+	66.66% {
+		filter: opacity(75%) drop-shadow(0 0 0 #1ddde8);
+	}
+	77.77% {
+		filter: opacity(75%) drop-shadow(0 0 0 #2b1de8);
+	}
+	88.88% {
+		filter: opacity(75%) drop-shadow(0 0 0 #dd00f3);
+	}
+	99.99% {
+		filter: opacity(75%) drop-shadow(0 0 0 #dd00f3);
+	}
+}
+@keyframes bgcolor {
+	11.11% {
+		filter: opacity(75%) drop-shadow(0 0 0 #ff2400);
+	}
+	22.22% {
+		filter: opacity(75%) drop-shadow(0 0 0 #e81d1d);
+	}
+	33.33% {
+		filter: opacity(75%) drop-shadow(0 0 0 #e8b71d);
+	}
+	44.44% {
+		filter: opacity(75%) drop-shadow(0 0 0 #e3e81d);
+	}
+	55.55% {
+		filter: opacity(75%) drop-shadow(0 0 0 #1de840);
+	}
+	66.66% {
+		filter: opacity(75%) drop-shadow(0 0 0 #1ddde8);
+	}
+	77.77% {
+		filter: opacity(75%) drop-shadow(0 0 0 #2b1de8);
+	}
+	88.88% {
+		filter: opacity(75%) drop-shadow(0 0 0 #dd00f3);
+	}
+	99.99% {
+		filter: opacity(75%) drop-shadow(0 0 0 #dd00f3);
+	}
+}
+
 
 .page::before {
 	content: "";
@@ -24,8 +127,10 @@ html, body {
 	top: 0; left: 0;
 	width: 100%; height: 100%;
 	background: url("https://upload.wikimedia.org/wikipedia/en/9/95/Test_image.jpg") no-repeat center center fixed; 
-	filter: opacity(75%) drop-shadow(0 0 0 #41C4DE);
-	animation: bgcolor 14s ease 0s infinite alternate none running;
+	-webkit-animation: bgcolor 18s ease infinite;
+	-z-animation: bgcolor 18s ease infinite;
+	-o-animation: bgcolor 18s ease infinite;
+	animation: bgcolor 18s ease infinite;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
