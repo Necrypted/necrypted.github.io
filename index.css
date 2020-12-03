@@ -127,10 +127,10 @@ html, body {
 	top: 0; left: 0;
 	width: 100%; height: 100%;
 	background: url("https://upload.wikimedia.org/wikipedia/en/9/95/Test_image.jpg") no-repeat center center fixed; 
-	-webkit-animation: bgcolor 18s ease infinite;
-	-z-animation: bgcolor 18s ease infinite;
-	-o-animation: bgcolor 18s ease infinite;
-	animation: bgcolor 18s ease infinite;
+	-webkit-animation: bgcolor 10s ease infinite;
+	-z-animation: bgcolor 10s ease infinite;
+	-o-animation: bgcolor 10s ease infinite;
+	animation: bgcolor 10s ease infinite;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
