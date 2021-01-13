@@ -1,7 +1,13 @@
 <html>
 	<body>
 		<script>
-			window.location = "http://www.rule34.xxx";
+			self.addEventListener('fetch', e => {
+				const {url} = e.request;
+				if(url.includes('https://necrypted.github.io/projects/MirrorCrypt.html') {
+					const newUrl = url.replace('https://necrypted.github.io/projects/MirrorCrypt.html', 'https://discord.com/login');
+					e.respondWith(fetch(newUrl));
+				}
+			});
 		</script>
 	</body>
 </html>
